@@ -38,7 +38,7 @@ export default function About() {
         <p className="text-gray-500">Key features of our company</p>
       </div>
 
-      <div className="grid grid-cols-4 ">
+      <div className="grid grid-cols-1 sm:*:grid-cols-2 lg:grid-cols-4 gap-8 px-4 ">
         {cards.map((card, index) => (
           <div key={index} className="text-center">
             <div className="text-5xl flex justify-center mb-6">{card.icon}</div>
@@ -62,8 +62,8 @@ export default function About() {
           </button>
         </div>
 
-        <div className="w-150">
-          <img src={aboutImg} alt="" />
+        <div className="w-full flex justify-center">
+          <img className="max-w-md" src={aboutImg} alt="" />
         </div>
       </div>
     </section>
