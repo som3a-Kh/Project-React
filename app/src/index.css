@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  /* height: 1000vh; */
+}
+
+nav{
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white; */
+}
+
+
+.hero {
+ height: 100vh;
+ position: relative;
+  background-image: url('./assets/mac.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;  
+}
+.hero .content {
+  color: white;
+}
+
